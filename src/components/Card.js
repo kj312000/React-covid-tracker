@@ -4,7 +4,6 @@ import CountUp from 'react-countup';
 
 function Card(props) {
     const date = new Date().toLocaleDateString();
-    console.log(date);
     return (
         <>
         <span className='secondary_status1'>
